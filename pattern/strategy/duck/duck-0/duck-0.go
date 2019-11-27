@@ -1,4 +1,4 @@
-package duck
+package duck_0
 
 import "fmt"
 
