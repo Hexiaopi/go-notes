@@ -1,4 +1,4 @@
-package TwoSum
+package Two_Sum
 
 func handleOne(nums []int, target int) []int {
 	var numIndex = make(map[int]int)
