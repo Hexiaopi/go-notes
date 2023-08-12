@@ -1,16 +1,6 @@
 package main
 
 import (
-	"github.com/Hexiaopi/go-patterns-example/strategy/bubblesort"
-	"github.com/Hexiaopi/go-patterns-example/strategy/combsort"
-	"github.com/Hexiaopi/go-patterns-example/strategy/heapsort"
-	"github.com/Hexiaopi/go-patterns-example/strategy/insertsort"
-	"github.com/Hexiaopi/go-patterns-example/strategy/mergesort"
-	"github.com/Hexiaopi/go-patterns-example/strategy/pancakesort"
-	"github.com/Hexiaopi/go-patterns-example/strategy/quicksort"
-	"github.com/Hexiaopi/go-patterns-example/strategy/selectsort"
-	"github.com/Hexiaopi/go-patterns-example/strategy/shellsort"
-
 	"bufio"
 	"flag"
 	"io"
@@ -18,6 +8,16 @@ import (
 	"os"
 	"strconv"
 	"time"
+
+	"github.com/Hexiaopi/go-notes/pattern/strategy/bubblesort"
+	"github.com/Hexiaopi/go-notes/pattern/strategy/combsort"
+	"github.com/Hexiaopi/go-notes/pattern/strategy/heapsort"
+	"github.com/Hexiaopi/go-notes/pattern/strategy/insertsort"
+	"github.com/Hexiaopi/go-notes/pattern/strategy/mergesort"
+	"github.com/Hexiaopi/go-notes/pattern/strategy/pancakesort"
+	"github.com/Hexiaopi/go-notes/pattern/strategy/quicksort"
+	"github.com/Hexiaopi/go-notes/pattern/strategy/selectsort"
+	"github.com/Hexiaopi/go-notes/pattern/strategy/shellsort"
 )
 
 type SortAlgorithm interface {

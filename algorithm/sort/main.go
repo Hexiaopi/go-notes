@@ -1,15 +1,6 @@
 package main
 
 import (
-	"DataStructuresAndAlgorithm/sort/BubbleSort"
-	"DataStructuresAndAlgorithm/sort/CombSort"
-	"DataStructuresAndAlgorithm/sort/HeapSort"
-	"DataStructuresAndAlgorithm/sort/InsertSort"
-	"DataStructuresAndAlgorithm/sort/MergeSort"
-	"DataStructuresAndAlgorithm/sort/PancakeSort"
-	"DataStructuresAndAlgorithm/sort/QuickSort"
-	"DataStructuresAndAlgorithm/sort/SelectSort"
-	"DataStructuresAndAlgorithm/sort/ShellSort"
 	"bufio"
 	"flag"
 	"io"
@@ -17,6 +8,17 @@ import (
 	"os"
 	"strconv"
 	"time"
+
+	"github.com/Hexiaopi/go-notes/algorithm/sort/BubbleSort"
+	"github.com/Hexiaopi/go-notes/algorithm/sort/CombSort"
+	"github.com/Hexiaopi/go-notes/algorithm/sort/HeapSort"
+	"github.com/Hexiaopi/go-notes/algorithm/sort/InsertSort"
+	"github.com/Hexiaopi/go-notes/algorithm/sort/MergeSort"
+	"github.com/Hexiaopi/go-notes/algorithm/sort/PancakeSort"
+	"github.com/Hexiaopi/go-notes/algorithm/sort/QuickSort"
+	"github.com/Hexiaopi/go-notes/algorithm/sort/SelectSort"
+	"github.com/Hexiaopi/go-notes/algorithm/sort/ShellSort"
+
 )
 
 var (

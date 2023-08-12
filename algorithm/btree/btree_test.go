@@ -1,35 +1,35 @@
-package main
+package btree
 
 import (
-	"algorithm/btree"
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestPrintBT(t *testing.T) {
 	//创建根节点
-	root := btree.NewNode(nil, nil)
-	var it btree.Initer
+	root := NewNode(nil, nil)
+	var it Initer
 	it = root
 	it.SetData("root node")
 	//创建左子树
-	a := btree.NewNode(nil, nil)
+	a := NewNode(nil, nil)
 	a.SetData("left node")
-	al := btree.NewNode(nil, nil)
+	al := NewNode(nil, nil)
 	al.SetData(100)
-	ar := btree.NewNode(nil, nil)
+	ar := NewNode(nil, nil)
 	ar.SetData(3.14)
 	a.Left = al
 	a.Right = ar
 	//创建右子树
-	b := btree.NewNode(nil, nil)
+	b := NewNode(nil, nil)
 	b.SetData("right node")
 	root.Left = a
 	root.Right = b
-	var ioperater btree.Operater
+	var ioperater Operater
 	ioperater = root
 	ioperater.PrintBT()
 	fmt.Println()
-	var iorder btree.Order
+	var iorder Order
 	iorder = root
 	iorder.PreOrder()
 	fmt.Println()
