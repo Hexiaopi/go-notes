@@ -1,13 +1,14 @@
 package main
 
 import (
-	"Example/ResourcePool/pool"
 	"io"
 	"log"
 	"math/rand"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/Hexiaopi/go-notes/toy/ResourcePool/pool"
 )
 
 const (

@@ -1,10 +1,11 @@
 package main
 
 import (
-	"Example/WorkPool/work"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/Hexiaopi/go-notes/toy/WorkPool/work"
 )
 
 var names = []string{

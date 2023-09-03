@@ -1,10 +1,11 @@
 package main
 
 import (
-	"Example/TaskMonitoring/runner"
 	"log"
 	"os"
 	"time"
+
+	"github.com/Hexiaopi/go-notes/toy/TaskMonitoring/runner"
 )
 
 const timeout = 15 * time.Second
