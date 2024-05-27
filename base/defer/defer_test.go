@@ -1,4 +1,4 @@
-package base
+package main
 
 import (
 	"fmt"
@@ -39,8 +39,6 @@ func ExampleDeferDemo6() {
 	// Output:
 	// 1
 }
-
-
 
 func ExampleDeferDemo7() {
 	fmt.Println(DeferDemo7())

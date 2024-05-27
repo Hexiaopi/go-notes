@@ -1,4 +1,4 @@
-package base
+package main
 
 func ExamplePrintArray() {
 	PrintArray()

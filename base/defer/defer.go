@@ -1,4 +1,4 @@
-package base
+package main
 
 import (
 	"fmt"
@@ -54,4 +54,3 @@ func DeferDemo7() (result int) {
 	}()
 	return 0
 }
-
